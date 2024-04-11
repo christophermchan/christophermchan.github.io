@@ -1,20 +1,185 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Filipe Branco</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<div class="home">
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
 
-  <h1>Posts</h1>
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Filipe Branco</h1>
+						<p>Welcome to my online portfolio. Here you will find more about
+							me and my projects. Feel free to look around!</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+				<!-- Header -->
+					<header id="header">
+						
+					</header>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="generic.html">My Projects</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/filipeabranco/" target = "_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/FIlipeBranco04" target = "_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
 
-</div>
+				<!-- Main -->
+					<div id="main">		
+						<!-- Featured Post -->
+						<article class="post featured">
+							<img src="images/dosSantosBranco_Filipe_Headshot-removebg-preview.png" alt="" height = 650 width = 500/>
+							<header class="major">
+								<h3><a>About Me:</a></h3>
+								<p>I am currently a senior at Cornell University, pursuing a B.S in Electrical and Computer Engineering with 
+								a minor in Business.<br> I am specifically interested in the Design of Microcontrollers, Machine Learning, Digital Signal Processing,
+								Data Analytics, Finance, and Robotics. I am from Porto, Portugal, and I speak four languages fluently: English, Spanish, Portuguese,
+								and French. During my free time, you will probably catch me playing soccer, reading, DJing, or playing the guitar. I also love to travel. 
+
+								</p>
+							</header>
+							
+							</article>
+						<h2><center>Professional Experience</center></h2>
+						<!-- Posts -->
+						<section class="posts">
+							<article>
+								<header>
+									<h2><a href="https://www.wsp.com/en-us/" target = "_blank">WSP USA</a></h2>
+									<h4>Electrical Engineering Intern</h4>
+								</header>
+								<a class="image fit"><img src="images/pennONE.jpg" alt="" /></a>
+								<p>Worked as an Electrical Engineer in the Electrical subteam of the WSP Building Systems Department.
+								Interned at the NYC Penn One location for two years, and worked on projects such as Pfizer, NY Public Health Lab, 
+								Ryan Health Building, and Shirley Chisholm Recreation Center.
+								</p>
+								<ul class="actions special">
+									<li><a href="#" class="button">Coming Soon!</a></li>
+								</ul>
+								<h4>Skills:</h4><p><center>Consulting, Problem Solving, Team Oriented, Project Oriented, AutoCAD, Revit</center></p>
+							</article>
+
+							<article>
+								<header>
+									<h2><a href="https://www.library.cornell.edu/" target = "_blank">Cornell University Library</a></h2>
+									<h4>Olin & Uris Library Stacks Manager and Circulation</h4>
+								</header>
+								<a class="image fit"><img src="images/ADwhite.jpg" alt="" /></a>
+								<p>Worked as a front desk operator at Olin Library and as a Stacks Manager in Uris and Olin Libraries. As a desk operator, I helped students and faculty in several
+								tasks such as finding library resources, assigning resource and room reservations, directions, and questions about library operations. As a Stacks Manager, I spearheaded 
+								Olin library's reorganization of resources by shelving and shifting library resources by the Library Call Number system. During my three years of experience, I was responsible
+								for training and orienting new employees in their tasks.
+								<h4>Skills:</h4><p><center>Leadership, Organization, Communication</center></p>
+								</p>
+
+							</article>
+
+							<article>
+								<header>
+									<h2><a href="https://giavacoffee.com/" target = "_blank">Giava Coffee Co.</a></h2>
+									<h4>Customer Service & Order Fulfillment</h4>
+								</header>
+								<a class="image fit"><img src="images/coffee.jpg" alt="" /></a>
+								<p>I fielded and processed all customer emails and phone calls while managing order fulfillment and shipment handling.
+								During my experience, I ensured the smooth processing of all shipments, tracking progress to provide customers with status updates or changes.	
+								</p>
+								<h4>Skills:</h4><p><center>Costumer Service, Communication, Logistics, and Problem Solving</center></p>
+								</article>
+							
+							<article></article>
+							</section>
+
+							<h3><center><a href = "generic.html">Check out my projects!</a></center></h3>
+
+						<!-- Footer -->
+							<footer>
+
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="mailto:fad28@cornell.edu">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Based in</h3>
+								<p>NY, New York</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a >(914) 433-4965</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a>fad28@cornell.edu</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/filipeabranco/" target = "_blank" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/FIlipeBranco04" class="icon brands alt fa-github" target = "_blank"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; N/A</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
